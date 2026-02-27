@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+dist/
+*.tsbuildinfo
+
+# 환경 변수 및 시크릿
+.env
+.env.*
+*.env
+*.secret
+secrets.json
+credentials.json
+
+# 로컬 IDE / 에디터 설정
+.vscode/settings.json
+.idea/
+*.suo
+*.user
+
+# Claude Code 로컬 설정
+.claude/settings.local.json
+.claude/todos/
+
+# MCP 클라이언트 설정 (개발자별 경로가 달라 커밋하지 않음)
+.cursor/mcp.json
+
+# OS 생성 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 테스트 / 커버리지
+coverage/
+
+# 임시 파일
+*.log
+*.tmp
+*.bak

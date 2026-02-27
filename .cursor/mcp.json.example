@@ -1,0 +1,8 @@
+{
+    "mcpServers": {
+        "sentinel-memory": {
+            "command": "npx",
+            "args": ["-y", "@vncy/sentinel-memory-mcp"]
+        }
+    }
+}
